@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "forgingstack-quorum"
+version = "0.1.0"
+description = "Before an agent acts alone, get the quorum. One proposal, N approvals, one receipt."
+license = {text="MIT"}
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+
+[project.scripts]
+forgingstack-quorum = "app.mcp_server:main"
+
+[tool.setuptools.packages.find]
+include = ["app*"]
