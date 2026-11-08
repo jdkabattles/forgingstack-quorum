@@ -1,0 +1,21 @@
+# ForgingStack Quorum
+
+> Before an agent acts alone, get the quorum. One proposal, N approvals, one receipt.
+
+- Live API: https://forgingstack-quorum.jkbattles.workers.dev
+- Product page: https://forgingstack.com/work/quorum/
+- Public client repo: https://github.com/jdkabattles/forgingstack-quorum
+- MCP Registry: io.github.jdkabattles/forgingstack-quorum
+
+## Docs
+
+- [README.md](https://github.com/jdkabattles/forgingstack-quorum/blob/main/README.md) — signup, proposal flow, price, files
+- [SKILL.md](https://github.com/jdkabattles/forgingstack-quorum/blob/main/SKILL.md) — when to use it, how to read the result
+- [agent-card.json](https://github.com/jdkabattles/forgingstack-quorum/blob/main/agent-card.json) — A2A-style discovery card
+
+## Facts
+
+- 1 credit per proposal; approvals are free.
+- 100 free starter credits on signup; email verification required before the key can create proposals.
+- $10 for 1,000 credits.
+- MCP tools: create_proposal, get_proposal, get_credits, get_receipt (stdio, stdlib only).
